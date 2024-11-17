@@ -1,0 +1,50 @@
+.almarai-light {
+  font-family: "Almarai", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.almarai-regular {
+  font-family: "Almarai", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.almarai-bold {
+  font-family: "Almarai", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.almarai-extrabold {
+  font-family: "Almarai", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.button {
+  background-color: #224f61;
+  color: white;
+  border: 2px solid #224f61;
+  border-radius: 5px;
+  padding: 3px 8px;
+  transition: 0.3s;
+}
+.button:hover {
+  background-color: white;
+  border-color: #224f61;
+  color: #224f61;
+}
+@media (max-width: 576px) {
+  .form {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+}
+.edit {
+  width: 97%;
+}
+@media (max-width: 991px) {
+  .edit {
+    width: 94%;
+  }
+}
